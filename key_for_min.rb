@@ -22,7 +22,7 @@ if name_hash.length == {}
   min_value = name_hash.first[0]
       min_key = name_hash.first[0]
       name_hash.each do |key, value|
-        if value <= min_value
+        if value < min_value
           min_value = value
           min_key = key
          else
