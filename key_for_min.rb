@@ -19,8 +19,8 @@
 
 def key_for_min_value(name_hash)
 if name_hash.length == {}
-  min_value = name_hash.length[0]
-      min_key = name_hash.length[0]
+  min_value = name_hash.length
+      min_key = name_hash.length
       name_hash.each do |key, value|
         if value < min_value
           min_value = value
